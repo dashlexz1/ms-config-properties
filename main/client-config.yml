@@ -1,1 +1,5 @@
-message=goodbye!
+data:
+  mongodb:
+    database: books
+    username: root
+    password: root
