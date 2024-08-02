@@ -1,5 +1,12 @@
-data:
-  mongodb:
-    database: books
-    username: root
-    password: root
+server:
+  port: 7099
+
+spring:
+  application:
+    name: book-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:8753/books
+      username: root
+      password: root
+      authenticationDatabase: admin
